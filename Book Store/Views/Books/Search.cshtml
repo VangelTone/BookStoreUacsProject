@@ -1,0 +1,10 @@
+﻿@using (Html.BeginForm("SearchResults", "Books"))
+{
+    <h3>Search For A Book</h3>
+    @Html.Label("SearchName")
+    <br>
+    @Html.Editor("SearchName")
+    <br>
+    <input type="submit" value="Search" />
+}
+
